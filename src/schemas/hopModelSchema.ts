@@ -1,6 +1,7 @@
-import { commonSchemaFieldGroupModelType, commonSchemaFieldDefObjectIdRequired } from '@freight/common-schema-fields';
-
-console.log({ commonSchemaFieldGroupModelType });
+import {
+  commonSchemaFieldDefObjectIdRequired,
+  commonSchemaFieldGroupModelType,
+} from '@datr.tech/leith-common-schema-fields';
 
 export const hopModelSchema = {
   _id: {

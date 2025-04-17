@@ -1,4 +1,7 @@
-import { commonSchemaFieldGroupModelType, commonSchemaFieldDefObjectIdRequired } from '@freight/common-schema-fields';
+import {
+  commonSchemaFieldDefObjectIdRequired,
+  commonSchemaFieldGroupModelType,
+} from '@datr.tech/leith-common-schema-fields';
 
 export const journeyTypeModelSchema = {
   _id: {

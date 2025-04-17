@@ -1,11 +1,8 @@
-import "@freight/common-schema-fields";
 import { hopModelSchema } from '../../../dist';
 
 describe('hopModelSchema', () => {
   describe('positive', () => {
     test('should contain the expected props', () => {
-      console.log({ hopModelSchema });
-
       // Arrange
       const propsExpected = {
         _id: {

@@ -5,12 +5,12 @@
   "description": "Parcel model schemas for dolomite",
   "keywords": [
     "datr.tech",
-		"dolomite",
-		"model",
-		"mongoose",
+    "dolomite",
+    "model",
+    "mongoose",
     "parcel",
-		"schemas",
-		"typescript"
+    "schemas",
+    "typescript"
   ],
   "homepage": "https://github.com/datr.tech/parcel-model-schemas-dolomite",
   "repository": {
@@ -28,7 +28,7 @@
   },
   "scripts": {
     "prebuild": "npm run clean",
-    "build": "npx webpack --mode production",
+    "build": "npx tsc",
     "prechangelog": "git add ./package.json",
     "changelog": "npx auto-changelog",
     "postchangelog": "npm-run-all changelog:add changelog:commit",
@@ -53,7 +53,7 @@
     "test": "npm run test:unit"
   },
   "dependencies": {
-		"@datr.tech/leith-common-schema-fields": "^0.3.1",
+    "@datr.tech/leith-common-schema-fields": "^0.3.1",
     "@types/node": "^22.7.6"
   },
   "devDependencies": {
@@ -62,7 +62,6 @@
     "@eslint/compat": "^1.1.1",
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.10.0",
-    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
     "@jest/globals": "^29.7.0",
     "@types/jest": "^29.5.13",
     "auto-changelog": "^2.5.0",
@@ -81,9 +80,7 @@
     "ts-node": "^10.9.2",
     "tsx": "^4.19.1",
     "typescript": "^5.6.2",
-    "typescript-eslint": "^8.6.0",
-    "webpack": "^5.94.0",
-    "webpack-cli": "^5.1.4"
+    "typescript-eslint": "^8.6.0"
   },
   "engines": {
     "node": ">=18.0.0",

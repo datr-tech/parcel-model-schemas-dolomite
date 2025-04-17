@@ -1,6 +1,6 @@
-export { hopModelSchemaOptions } from './hopModelSchemaOptions';
 export { hopModelSchema } from './hopModelSchema';
-export { journeyModelSchemaOptions } from './journeyModelSchemaOptions';
+export { hopModelSchemaOptions } from './hopModelSchemaOptions';
 export { journeyModelSchema } from './journeyModelSchema';
-export { journeyTypeModelSchemaOptions } from './journeyTypeModelSchemaOptions';
+export { journeyModelSchemaOptions } from './journeyModelSchemaOptions';
 export { journeyTypeModelSchema } from './journeyTypeModelSchema';
+export { journeyTypeModelSchemaOptions } from './journeyTypeModelSchemaOptions';
