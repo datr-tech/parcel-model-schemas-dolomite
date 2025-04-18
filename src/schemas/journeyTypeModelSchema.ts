@@ -1,7 +1,7 @@
 import {
   commonSchemaFieldDefObjectIdRequired,
   commonSchemaFieldGroupModelType,
-} from '@datr.tech/leith-common-schema-fields';
+} from '@datr.tech/parcel-model-schemas-common-fields';
 
 export const journeyTypeModelSchema = {
   _id: {
