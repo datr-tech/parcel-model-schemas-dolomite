@@ -1,8 +1,4 @@
-import path from 'path';
-import { fileURLToPath } from 'url';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+import path from 'node:path';
 
 export default {
   entry: './src/index.ts',
@@ -19,12 +15,15 @@ export default {
     extensions: ['.js', '.json', '.ts'],
     modules: ['node_modules'],
     alias: {
-      '@app-parcel-model-schemas-dolomite': path.resolve(__dirname, 'src/'),
+      '@app-pmsd': path.resolve('./src/'),
     },
   },
   target: 'node',
   output: {
     filename: 'index.js',
-    path: path.resolve(__dirname, 'dist'),
+    library: {
+      type: 'commonjs2',
+    },
+    path: path.resolve('./dist'),
   },
 };

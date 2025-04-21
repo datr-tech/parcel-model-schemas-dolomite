@@ -5,19 +5,20 @@
     "baseUrl": ".",
     "declaration": true,
     "esModuleInterop": true,
-    "module": "es6",
+    "lib": ["es2015"],
+    "module": "commonjs",
     "moduleResolution": "node",
     "outDir": "./dist",
-    "target": "es2022",
+    "paths": {
+      "@app-pmsd/*": ["./src/*"],
+      "@dist-pmsd": ["./dist"]
+    },
+    "target": "es2015",
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "sourceMap": true,
-    "paths": {
-      "@app-parcel-model-schemas-dolomite": ["./src/*"],
-      "@test-parcel-model-schemas-dolomite": ["./test/*"]
-    }
+    "sourceMap": true
   },
-  "exclude": [".git", ".github", ".husky", ".jest", "dist"],
+  "exclude": [".git", ".github", ".jest", "coverage", "node_modules", "dist"],
   "files": ["src/index.ts"],
   "include": ["./src/**/*.ts"]
 }

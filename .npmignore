@@ -1,12 +1,12 @@
 .editorconfig
 .prettierignore
-.prettierrc
+.prettierrc.json
 
 CHANGELOG.md
 commitlint.config.js
 cspell.json
 eslint.config.mjs
-jest.config.ts
+jest.config.json
 tsconfig.json
 webpack.config.mjs
 

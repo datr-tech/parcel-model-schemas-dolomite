@@ -1,4 +1,4 @@
-import { hopModelSchema } from '../../../dist';
+import { hopModelSchema } from '@dist-pmsd';
 
 describe('hopModelSchema', () => {
   describe('positive', () => {

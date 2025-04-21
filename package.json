@@ -19,11 +19,10 @@
   },
   "license": "MIT",
   "author": "admin <admin@datr.tech>",
-  "type": "module",
   "main": "./dist/index.js",
   "scripts": {
     "prebuild": "npm run clean",
-    "build": "npx tsc",
+    "build": "npx webpack --mode production",
     "prechangelog": "git add ./package.json",
     "changelog": "npx auto-changelog",
     "postchangelog": "npm-run-all changelog:add changelog:commit",
@@ -48,7 +47,7 @@
     "test": "npm run test:unit"
   },
   "dependencies": {
-    "@datr.tech/parcel-model-schemas-common-fields": "^0.3.1",
+    "@datr.tech/parcel-model-schemas-common-fields": "^0.3.7",
     "@types/node": "^22.7.6"
   },
   "devDependencies": {

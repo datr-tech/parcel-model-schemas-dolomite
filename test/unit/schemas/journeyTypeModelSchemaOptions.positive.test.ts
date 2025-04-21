@@ -1,4 +1,4 @@
-import { journeyTypeModelSchemaOptions } from '@app/schemas';
+import { journeyTypeModelSchemaOptions } from '@app-pmsd/schemas';
 
 describe('journeyTypeModelSchemaOptions', () => {
   describe('positive', () => {

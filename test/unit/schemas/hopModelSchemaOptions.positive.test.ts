@@ -1,4 +1,4 @@
-import { hopModelSchemaOptions } from '@app/schemas';
+import { hopModelSchemaOptions } from '@app-pmsd/schemas';
 
 describe('hopModelSchemaOptions', () => {
   describe('positive', () => {
