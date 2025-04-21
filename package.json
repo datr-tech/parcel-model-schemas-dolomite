@@ -1,6 +1,6 @@
 {
   "name": "@datr.tech/parcel-model-schemas-dolomite",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "private": false,
   "description": "Parcel model schemas for dolomite",
   "keywords": [
