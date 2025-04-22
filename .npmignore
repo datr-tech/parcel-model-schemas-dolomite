@@ -12,7 +12,6 @@ webpack.config.mjs
 
 .github/
 .husky/
-.jest/
 
 coverage/
 src/

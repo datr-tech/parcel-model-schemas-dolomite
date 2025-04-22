@@ -9,14 +9,15 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "outDir": "./dist",
-    "paths": {
-      "@app-pmsd/*": ["./src/*"],
-      "@dist-pmsd": ["./dist"]
-    },
     "target": "es2015",
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "paths": {
+      "@app-pmsd/*": ["./src/*"],
+      "@dist-pmsd": ["./dist/index.js"],
+      "@test-pmsd/*": ["./test/*"]
+    }
   },
   "exclude": [".git", ".github", ".jest", "coverage", "node_modules", "dist"],
   "files": ["src/index.ts"],

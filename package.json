@@ -4,7 +4,8 @@
   "private": false,
   "description": "Parcel model schemas for dolomite",
   "keywords": [
-    "datr.tech",
+    "@app-pmsd",
+    "@datr.tech",
     "dolomite",
     "model",
     "mongoose",
@@ -41,13 +42,13 @@
     "precommit": "npm-run-all format lint spell",
     "prepare": "husky",
     "prepush": "npm run test",
-    "spell": "npx cspell ./src/**/*.ts",
+    "spell": "npx cspell .",
     "test:it": "npx jest ./test/integration",
     "test:unit": "npx jest ./test/unit --coverage",
     "test": "npm run test:unit"
   },
   "dependencies": {
-    "@datr.tech/parcel-model-schemas-common-fields": "^0.3.7",
+    "@datr.tech/parcel-model-schemas-common-fields": "^0.3.8",
     "@types/node": "^22.7.6"
   },
   "devDependencies": {
