@@ -43,12 +43,12 @@
     "prepare": "husky",
     "prepush": "npm run test",
     "spell": "npx cspell .",
-    "test:it": "npx jest ./test/integration",
-    "test:unit": "npx jest ./test/unit --coverage",
+    "test:it": "npx jest -c ./jest.config.integration.json ./test/integration",
+    "test:unit": "npx jest -c ./jest.config.unit.json ./test/unit --coverage",
     "test": "npm run test:unit"
   },
   "dependencies": {
-    "@datr.tech/parcel-model-schemas-common-fields": "^0.4.0",
+    "@datr.tech/parcel-model-schemas-common-fields": "^0.4.2",
     "@types/node": "^22.7.6"
   },
   "devDependencies": {

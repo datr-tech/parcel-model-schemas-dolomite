@@ -3,7 +3,7 @@
 .prettierrc.json
 
 CHANGELOG.md
-commitlint.config.js
+commitlint.config.mjs
 cspell.json
 eslint.config.mjs
 jest.config.json

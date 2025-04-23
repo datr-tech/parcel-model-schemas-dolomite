@@ -1,17 +1,16 @@
 {
   "coveragePathIgnorePatterns": ["<rootDir>/test/fixtures"],
-  "coverageReporters": ["lcov", "json-summary"],
+  "coverageReporters": ["lcov", "json-summary", "text"],
   "coverageThreshold": {
     "global": {
-      "branches": 0,
-      "functions": 0,
-      "lines": 0,
-      "statements": 0
+      "branches": 100,
+      "functions": 100,
+      "lines": 100,
+      "statements": 100
     }
   },
   "moduleNameMapper": {
-    "@app-pmsd/(.*)": "<rootDir>/src/$1",
-    "@dist-pmsd": "<rootDir>/dist/index.js"
+    "@app-pmsd/(.*)": "<rootDir>/src/$1"
   },
   "preset": "ts-jest",
   "testEnvironment": "node",
