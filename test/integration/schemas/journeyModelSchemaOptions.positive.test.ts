@@ -1,4 +1,4 @@
-import { journeyModelSchemaOptions } from '@dist-pmsd';
+import { journeyModelSchemaOptions } from '../../../dist';
 
 describe('journeyModelSchemaOptions', () => {
   describe('positive', () => {

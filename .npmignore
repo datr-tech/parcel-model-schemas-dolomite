@@ -8,7 +8,6 @@ cspell.json
 eslint.config.mjs
 jest.config.json
 tsconfig.json
-webpack.config.mjs
 
 .github/
 .husky/

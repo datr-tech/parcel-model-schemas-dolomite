@@ -5,19 +5,16 @@
     "baseUrl": ".",
     "declaration": true,
     "esModuleInterop": true,
-    "lib": ["es2015"],
     "module": "commonjs",
     "moduleResolution": "node",
     "outDir": "./dist",
-    "target": "es2015",
+    "paths": {
+      "@app-pmsd/*": ["./src/*"]
+    },
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "sourceMap": true,
-    "paths": {
-      "@app-pmsd/*": ["./src/*"],
-      "@dist-pmsd": ["./dist/index.js"],
-      "@test-pmsd/*": ["./test/*"]
-    }
+    "target": "es5"
   },
   "exclude": [".git", ".github", ".jest", "coverage", "node_modules", "dist"],
   "files": ["src/index.ts"],
